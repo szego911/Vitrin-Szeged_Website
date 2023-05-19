@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8W7NF0678"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V8W7NF0678');
+  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="/Images/Logo/VitrinFaviconFeher.ico">
+    <meta name="author" content="Szegedi Bence">
+    <meta name="description" content="Szeged szívében, a Dóm téren várunk minden italozni vágyót.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrin Szeged - Itallap</title>
+    <meta property="og:title" content="Vitrin Szeged Itallap" />
+    <meta property="og:url" content="https://vitrinszeged.hu/Itallap.html" />
+    <meta property="og:image" content="https://vitrinszeged.hu/Images/og-image.png" />
+    <meta property="og:description" content="Egyedi akciókkal, különleges koktélokkal és limonádékkal várunk mindenkit a Dóm téren. Élvezd te is az italozás szabadságát a Vitrinben!">
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="hu_HU" />
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Styles/about.css">
+    <link rel="stylesheet" href="/Styles/mobil.css">
+    <link rel="stylesheet" href="/Styles/programok.css">
+    <link rel="stylesheet" href="/Styles/italvalasztek.css">
+    <link rel="stylesheet" href="/Styles/kapcsolat.css">
+    <link rel="stylesheet" href="/Styles/gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dbc47ebaee.js" crossorigin="anonymous"></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+      }
+      #galeriaheader{
+        width: 100%;
+        height: 25vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+
+      .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 5px;
+        padding-bottom: 35px;
+        margin: 0 15px;
+      }
+
+      /* Create four equal columns that sits next to each other */
+      .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 50%;
+        padding: 0 4px;
+      }
+
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+      /* Responsive layout - makes a two column-layout instead of four columns 
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }*/
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 900px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+<body>
+  <!------------------galéria header----------------->
+    <div id="galeriaheader">
+        <div class="container">
+            <nav class="stickymenu">
+              <img src="/Images/Logo/VitrinszegedlogoWhite.jpg" class="logo" alt="Vitrin Szeged">
+                <ul id="sidemenu">
+                    <li><a href="index.html#Kezdőlap">Kezdőlap</a></li>
+                    <li><a href="index.html#Vitrin">A helyről</a></li>
+                    <li><a href="Asztalfoglalas.html">Asztalfoglalás</a></li>
+                    <li><a href="Galeria.html">Galéria</a></li>
+                    <li><a href="#Kapcsolat">Kapcsolat</a></li>
+                    <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row"> 
+        <div class="column">
+        <img src="/Images/Itallap1.jpg" alt="Vitrin Szeged Itallap"  style="width:100%">
+        <img src="/Images/Koktellap2.jpg" alt="Vitrin Szeged Koktéllap"  style="width:100%">
+        </div>
+        <div class="column">
+        <img src="/Images/Koktellap1.jpg" alt="Vitrin Szeged Koktéllap"  style="width:100%">
+        <img src="/Images/Itallap2.jpg" alt="Vitrin Szeged Itallap"  style="width:100%">
+        
+        </div>  
+    </div>  
+    <!----------------------Footer--------------------------->
+    <div id="nyitvatartas" >
+    <table class="napok">
+        <caption><h1 class="sub-title">Nyitvatartás</h1></caption>
+        <tr>
+            <td>Hétfő</td>
+            <td>zárva</td>
+        </tr>
+        <tr>
+            <td>Kedd</td>
+            <td>09:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Szerda</td>
+            <td>09:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Csütörtök</td>
+            <td>09:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Péntek</td>
+            <td>09:00 - 02:00</td>
+        </tr>
+        <tr>
+            <td>Szombat</td>
+            <td>10:00 - 02:00</td>
+        </tr>
+        <tr>
+            <td>Vasárnap</td>
+            <td>zárva</td>
+        </tr>
+    </table>
+</div>
+<div id="Kapcsolat">
+    <div class="container">
+        <div class="row row2">
+            <div class="contact-left">
+                <h1 class="sub-title">Kapcsolat</h1>
+                <a href="https://www.google.hu/maps/place/Vitrin+Szeged/@46.2490181,20.1457037,17z/data=!3m1!4b1!4m6!3m5!1s0x4744886fd1707e3b:0x128c0be94bf7c443!8m2!3d46.2490181!4d20.1482786!16s%2Fg%2F11bttrpkwc" class="left"  ><p><i class="fa-solid fa-location-dot"></i>Szeged, Apáthy István u. 1, 6720</p></a>
+                <p><i class="fa-solid fa-envelope"></i>vitrinkavezo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+36204438398" id="tel">06 20 443 8398</a></p>              
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/vitrinszeged/?locale=hu_HU" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/vitrinszeged/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="/PDF/Itallap.pdf" download class="btn2">Letöltöm az itallapot</a>
+                <a href="/PDF/Koktellap.pdf" download class="btn2">Letöltöm az koktéllapot</a>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11036.243399975127!2d20.1482786!3d46.2490181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4744886fd1707e3b%3A0x128c0be94bf7c443!2sVitrin%20Szeged!5e0!3m2!1shu!2shu!4v1681662673638!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <nav class="footernav">
+            <ul class="center">
+              <li><a href="index.html#Kezdőlap">Kezdőlap</a></li>
+              <li><a href="index.html#Vitrin">A helyről</a></li>
+              <li><a href="Asztalfoglalas.html">Asztalfoglalás</a></li>
+              <li><a href="Galeria.html">Galéria</a></li>                
+            </ul>
+        </nav>
+        <p>Copyright © <a href="https://easymediaagency.com/" target="_blank">Easy Media Agency</a>. All rights reserved</p>
+    </div>
+</div>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>

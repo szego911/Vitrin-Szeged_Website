@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8W7NF0678"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V8W7NF0678');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="/Images/Logo/VitrinFaviconFeher.ico">
+    <meta name="author" content="Szegedi Bence">
+    <meta name="description" content="Szeged szívében, a Dóm téren várunk minden italozni vágyót.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrin Szeged - Asztalfoglalás</title>
+    <meta property="og:title" content="Vitrin Szeged - Asztalfoglalás" />
+    <meta property="og:url" content="https://vitrinszeged.hu/Asztalfoglalas.html" />
+    <meta property="og:image" content="https://vitrinszeged.hu/Images/og-image.png" />
+    <meta property="og:description" content="Egyedi akciókkal, különleges koktélokkal és limonádékkal várunk mindenkit a Dóm téren. Élvezd te is az italozás szabadságát a Vitrinben!">
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="hu_HU" />
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Styles/about.css">
+    <link rel="stylesheet" href="/Styles/mobil.css">
+    <link rel="stylesheet" href="/Styles/programok.css">
+    <link rel="stylesheet" href="/Styles/italvalasztek.css">
+    <link rel="stylesheet" href="/Styles/kapcsolat.css">
+    <link rel="stylesheet" href="/Styles/gallery.css">
+    <link rel="stylesheet" href="/Styles/asztalfoglalas.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dbc47ebaee.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="Asztalfoglalas">
+        <div class="container">
+            <nav>
+                <img src="/Images/Logo/VitrinszegedlogoWhite.jpg" class="logo" alt="Vitrin Szeged">
+                <ul id="sidemenu">
+                  <li><a href="index.html#Kezdőlap">Kezdőlap</a></li>
+                  <li><a href="index.html#Vitrin">A helyről</a></li>
+                  <li><a href="Itallap.html">Itallap</a></li>
+                  <li><a href="Galeria.html">Galéria</a></li>
+                  <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    
+<div id="Kapcsolat">
+    <div class="container">
+        <div class="row row2">
+            <div class="contact-left" data-aos="fade-right" data-aos-duration="1300" data-aos-once="true">
+                <h1 class="sub-title">Asztalfoglalás</h1>
+                <p>Foglalj egyszerűen asztalt hozzánk telefonon, emailen, személyesen, vagy a <a href="https://www.facebook.com/vitrinszeged/?locale=hu_HU">Facebook</a> oldalunkon keresztül!</p>
+                <a href="https://www.google.hu/maps/place/Vitrin+Szeged/@46.2490181,20.1457037,17z/data=!3m1!4b1!4m6!3m5!1s0x4744886fd1707e3b:0x128c0be94bf7c443!8m2!3d46.2490181!4d20.1482786!16s%2Fg%2F11bttrpkwc" class="left" id="hely" ><p><i class="fa-solid fa-location-dot"></i>Szeged, Apáthy István u. 1, 6720</p></a>
+                <p><i class="fa-solid fa-envelope"></i>vitrinkavezo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+36204438398" class="tel">06 20 443 8398</a></p>  
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/vitrinszeged/?locale=hu_HU"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/vitrinszeged/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11036.243399975127!2d20.1482786!3d46.2490181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4744886fd1707e3b%3A0x128c0be94bf7c443!2sVitrin%20Szeged!5e0!3m2!1shu!2shu!4v1681662673638!5m2!1shu!2shu" data-aos="fade-left" data-aos-duration="1300" data-aos-once="true" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright1">
+        <p>Copyright © <a href="https://easymediaagency.com/" target="_blank">Easy Media Agency</a>. All rights reserved</p>
+    </footer>
+</div>
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

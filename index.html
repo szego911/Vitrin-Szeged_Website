@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8W7NF0678"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-V8W7NF0678');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="/Images/Logo/VitrinFaviconFeher.ico">
+    <meta name="author" content="Szegedi Bence">
+    <title>Vitrin Szeged - Koktélbár | Kávézó</title>
+    <meta property="og:title" content="Vitrin Szeged - Koktélbár | Kávézó" />
+    <meta property="og:url" content="https://vitrinszeged.hu/" />
+    <meta property="og:image" content="https://vitrinszeged.hu/Images/og-image.png" />
+    <meta property="og:description" content="Egyedi akciókkal, különleges koktélokkal és limonádékkal várunk mindenkit a Dóm téren. Élvezd te is az italozás szabadságát a Vitrinben!">
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="hu_HU" />
+    <meta name="description" content="Egyedi akciókkal, különleges koktélokkal és limonádékkal várunk mindenkit a Dóm téren. Élvezd te is az italozás szabadságát a Vitrinben!">
+    <meta name="phone" content="+36204438398"/>
+    <meta name="email" content="vitrinkavezo@gmail.com"/>
+    <meta name="address" content="6720 Szeged, Apáthy István utca 1, Magyarország"/>
+    <meta name="geo.placename" content="Szeged"/>
+    <meta name="geo.region" content="HU"/>
+    <meta name="geo.position" content="46.2490338;20.1484101"/>
+    <meta name='url' content='http://www.vitrinszeged.hu'>
+    <meta property="og:type" content="restaurant.restaurant"/>
+    <meta property="restaurant:contact_info:street_address" content="Apáthy István utca 1"/>
+    <meta property="restaurant:contact_info:locality" content="Szeged"/>
+    <meta property="restaurant:contact_info:postal_code" content="6720"/>
+    <meta property="restaurant:contact_info:country_name" content="Magyarország"/>
+    <meta property="restaurant:contact_info:email" content="vitrinkavezo@gmail.com"/>
+    <meta property="restaurant:contact_info:phone_number" content="+36204438398"/>
+    <meta property="restaurant:contact_info:website" content="https://vitrinszeged.hu/"/>
+    <meta property="place:location:latitude" content="46.2490338"/>
+    <meta property="place:location:longitude" content="20.1484101"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="/Styles/about.css">
+    <link rel="stylesheet" href="/Styles/mobil.css">
+    <link rel="stylesheet" href="/Styles/programok.css">
+    <link rel="stylesheet" href="/Styles/italvalasztek.css">
+    <link rel="stylesheet" href="/Styles/kapcsolat.css">
+    <link rel="stylesheet" href="/Styles/gallery.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dbc47ebaee.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="Kezdőlap">
+        <div class="container">
+            <nav>
+                <img src="/Images/Logo/VitrinszegedlogoWhite.jpg" class="logo" alt="Vitrin Szeged ">
+                <ul id="sidemenu">
+                    <li><a href="#Vitrin">A helyről</a></li>
+                    <li><a href="Asztalfoglalas.html">Asztalfoglalás</a></li>
+                    <li><a href="Itallap.html">Itallap</a></li>
+                    <li><a href="Galeria.html">Galéria</a></li>
+                    <li><a href="#nyitvatartas">Kapcsolat</a></li>
+                    <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Vitrin Szeged</p>
+                <h1>Szeged <span>legjobb</span><br> koktélos helye</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------about------------------------>
+    <div id="Vitrin">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/kave2.1.jpg" data-aos="fade-right" data-aos-duration="1300" data-aos-once="true">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">A helyről</h1>
+                    <p>A Vitrin egy hangulatos kávézó és bár, ahol mindenki megtalálja a számára megfelelő italt.
+                         Zenével és jó hangulattal várunk mindenkit, aki kávézni szeretne, vagy frissítőre vágyik, 
+                         esetleg az alkoholos italok világába kóstolna bele. Akadálymentesített és kutyabarát hely vagyunk.
+                        Hangulatos benti résszel, nyitott dohányzó terasszal és ingyenes wifivel várunk minden vendéget.                       
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('kave')">Kávék</p>
+                        <p class="tab-links" onclick="opentab('koktelok')">Koktélok</p>
+                        <p class="tab-links" onclick="opentab('italok')">Alkoholos italok</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="kave">
+                        <ul>
+                            <li><span>Kávék</span><br>Ha egy jó kávéra vágysz a legjobb helyen jársz.
+                            Csendes és nyugodt környezetben fogyaszthatod a frissen darált kávéból főzött italodat.
+                            <br>Kóstold meg a kávé különlegességéinket, mint például az Oreos jeges kávé.
+                            <br>Ha szeretnéd koffeinmentes, laktózmentes változatban is elkészítjük neked.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="koktelok">
+                        <ul>
+                            <li><span>Koktékok</span><br>Tekintsd meg itallapunkat és válasz kedvedre koktéljaink közül.
+                            Klasszikus és rendhagyó stílust is megtalálod nálunk az italjaink között, amiket száritott gyümölcsel díszítünk. 
+                            <br>Ha szeretnéd alkoholmentes változatban is el tudjuk készíteni. 
+                            <br> Többen vagytok? Kérjetek kancsós koktélt, hogy mindenkinek jusson!
+                             Tölts le koktéllapunkkal és nézz körül.</li>
+                            <li><a href="Itallap.html" target="_blank" class="btn2">Megnézem a koktéllapot</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="italok">
+                        <ul>
+                            <li><span>Alkoholos italok</span><br>Ha szereted a italok világát, akkor biztosan találsz olyat 
+                            nálunk, ami tetszeni fog. Széles gin, rum, brandy és whiskey kínálatunkkal igyekszünk lefedni mindenki ízlését.
+                            <br>Feles akcióinkkat kedvezünk nagyobb társaságoknak, hogy mindenki jól érezze magát és jól is járjon.
+                            <br>Töltsd le az itallapot és találd meg a neked megfelelőt! </li>
+                            <li><a href="Itallap.html" target="_blank" class="btn2">Megnézem az itallapot</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!----------------------Italválaszték------------------------------>
+    <div id="Italválaszték">
+        <div class="container">
+            <h1 class="sub-title">Italválaszték</h1>
+            <div class="ital-list">
+                <div class="ital">
+                    <img src="/Images/malfy_gt.jpg" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" alt="Malfy Rosa Gin tonic">
+                    <div class="layer">
+                        <h3>Malfy Rosa</h3>
+                        <p>Néhány szicíliai grapefruit, olasz citrom és kézzel válogatott 
+                            boróka elegáns fúziója hozza létre a Malfy Rosa Gin különleges 
+                            ízét. A lepárlást hagyományos, rozsdamentes 
+                            acélüstökben végzik, így az olasz boróka és citrom friss aromái 
+                            megmaradnak.<br><br> Gyere el és próbáld ki nálunk 
+                            grapefruit és és rozmaring garnish-al.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="ital">
+                    <img src="/Images/kancsos_mojito.jpg" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" alt="Kancsós Mojito koktél">
+                    <div class="layer">
+                        <h3>Kancsós Mojito</h3>
+                        <p>A Mojito koktél első, eredeti változatát Silvio Suarez Diaz alkotta meg Havannában
+                             a XVI. században. A legelső Mojito koktélban gyenge minőségű, minimális érleléssel
+                              készült kubai rumot használtak, melyet barna cukorral, citrommal, mentával és 
+                              gyógynövényekkel ízesítettek.
+                            <br><br>Mi fehér rumot, limeot, lime levet, házi cukorszirupot és szint úgy mentát 
+                            használunk, amit tört jéggél és szódával önünk fel. Próbáld ki kancsós formában, 
+                            ugyanis a Mojitoból soha nem elég!</p>
+                    </div>
+                </div>
+                <div class="ital">
+                    <img src="/Images/rosemixer.jpg" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" alt="Rose Mixer koktél">
+                    <div class="layer">
+                        <h3>Rose Mixer</h3>
+                        <p>A Rose Mixer koktélunk alapja a Tanqueray gin, amihez lime levet ksi levendula szirupot adunk. 
+                            A pohárba tört jeget teszünk és felhúzzuk tonic-kal. Díszítésnek száritott rózsabibót használunk. 
+                            Tökéletes választás ha valami frissítőre vágysz.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn " id="button" onclick="toggle()">Még több érdekességet!</button>
+                <div class="ital-list" id="showmore" style="display: none;">
+                    <div class="ital">
+                        <img src="/Images/limonade1.jpg" alt="Frissítő limonádé">
+                        <div class="layer">
+                            <h3>Limonádé</h3>
+                            <p>Limonádéinkat szeletelt citrommal, naranccsal valamint mentával készítjük el. 
+                                Az ízesített limókba az íznek megfelelő valódi gyümölcsöt rakunk. Kérheted szénsavmentes vízből, akár jég nélkül is.
+                                <br><br>Garantált frissítő élmény! Tökéletes egy forró nyári napon, kóstold meg nálunk.</p>
+                        </div>
+                    </div>
+                    <div class="ital">
+                        <img src="/Images/pilsner.jpg" alt="Csapolt Pilsner Urquell eredeti prágai csapról">
+                        <div class="layer">
+                            <h3>Csapolt sör</h3>
+                            <p>Válogass csapolt sör kínálatunkban. A Vitrinben megtalálod a csapon: </p><br>
+                                <ul>
+                                    <li> Floris Kriek belga meggysör</li>
+                                    <li>Dreher Gold</li>
+                                    <li>Pilsner Urquell (eredeti hagyományörőző csapról, pont mint Prágában)</li>
+                                    <li>Kronenbourg 1664 Blanc francia búzasör</li>
+                                </ul>
+                            <br>
+                            <p>Ülj be hozzánk sörözni a barátaiddal és érezzétek jól magatok!</p>
+                        </div>
+                    </div>
+                    <div class="ital">
+                        <img src="/Images/russianmule.jpg" alt="Russian Mule koktél">
+                        <div class="layer">
+                            <h3>Russian Mule</h3>
+                            <p>Kiváló ital, ha rákapsz az ízére egyik a másik után jön. Egyszerű recept 4cl Russian Standard, friss lime,
+                                 limelé, menta, darált jég, felöntve gyömbérsörrel. A menta és lime adja a frissítő érzést, amit a gyömbér pikánssága emel a magasba. 
+                                 Autentikus rézbögrében szolgáljük fel neked.</p>
+                        </div>
+                    </div>
+                </div>
+            <a href="Galeria.html" class="btn">Galéria</a>
+        </div>
+    </div>
+    <!----------------------Programok------------------------------>
+    <div id="Programok">
+        <div class="container">
+            <h1 class="sub-title">Programok</h1>
+            <div class="programok-list">
+                <div>
+                    <i class="fa-solid fa-champagne-glasses"></i>
+                    <h2>Vitrin</h2>
+                    <p> Legyen szó szülinapról, névnapról, baráti összejövetelről, kvízestről vagy akár kocsmatúráról, a Vitrinben biztos, hogy jó helyen jársz. <br> 
+                        Foglalj nálunk asztalt a <a href="tel:+36204438398" class="tel">06 20 443 8398</a> telefonszámon vagy a vitrinkavezo@gmail.com e-mail címen keresztül. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h2>Fiztés</h2>
+                    <p>Elfogadjuk az érintésmentes fizetést, a Mastercardot, a VISA-t, a SZÉP kártyát, 
+                        a hitelkártyákat, az Apple Pay-t és a Maestrot. Ezen kívül készpénzzel is fizethet. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-utensils"></i>
+                    <h2> Catering</h2>
+                    <p>Catering szolgáltatást is biztosítunk, vedd fel velünk a kapcsolatot. 
+                        Nagyobb esemény közeledik, amelyet tágabb körben szeretnél megünnepelni? 
+                        Érdeklődj további rendezvényhelyszíneinkről!</p>
+                    <a href="https://optimcatering.com/" target="_blank" id="catering">Érdekel!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------Footer------------------------------>
+    
+    <div id="nyitvatartas" >
+    <table class="napok">
+        <caption><h1 class="sub-title">Nyitvatartás</h1></caption>
+        <tr>
+            <td>Hétfő</td>
+            <td>zárva</td>
+        </tr>
+        <tr>
+            <td>Kedd</td>
+            <td>09:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Szerda</td>
+            <td>09:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Csütörtök</td>
+            <td>09:00 - 23:00</td>
+        </tr>
+        <tr>
+            <td>Péntek</td>
+            <td>09:00 - 02:00</td>
+        </tr>
+        <tr>
+            <td>Szombat</td>
+            <td>10:00 - 02:00</td>
+        </tr>
+        <tr>
+            <td>Vasárnap</td>
+            <td>zárva</td>
+        </tr>
+    </table>
+</div>
+<div id="Kapcsolat">
+    <div class="container">
+        <div class="row row2">
+            <div class="contact-left">
+                <h1 class="sub-title">Kapcsolat</h1>
+                <a href="https://www.google.hu/maps/place/Vitrin+Szeged/@46.2490181,20.1457037,17z/data=!3m1!4b1!4m6!3m5!1s0x4744886fd1707e3b:0x128c0be94bf7c443!8m2!3d46.2490181!4d20.1482786!16s%2Fg%2F11bttrpkwc" class="left"  ><p><i class="fa-solid fa-location-dot"></i>Szeged, Apáthy István u. 1, 6720</p></a>
+                <p><i class="fa-solid fa-envelope"></i>vitrinkavezo@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+36204438398" class="tel">06 20 443 8398</a></p>              
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/vitrinszeged/?locale=hu_HU"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/vitrinszeged/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="/PDF/Itallap.pdf" download class="btn2">Letöltöm az itallapot</a>
+                <a href="/PDF/Koktellap.pdf" download class="btn2">Letöltöm az koktéllapot</a>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11036.243399975127!2d20.1482786!3d46.2490181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4744886fd1707e3b%3A0x128c0be94bf7c443!2sVitrin%20Szeged!5e0!3m2!1shu!2shu!4v1681662673638!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <nav class="footernav">
+            <ul class="center">
+                <li><a href="#Kezdőlap">Kezdőlap</a></li>
+                <li><a href="#Vitrin">A helyről</a></li>
+                <li><a href="Asztalfoglalas.html">Asztalfoglalás</a></li>
+                <li><a href="Itallap.html">Itallap</a></li>
+                <li><a href="Galeria.html">Galéria</a></li>
+            </ul>
+        </nav>
+        <p>Copyright © <a href="https://easymediaagency.com/" target="_blank">Easy Media Agency</a>. All rights reserved</p>
+    </div>
+</div>
+
+    <script>
+        function toggle() {
+            var x = document.getElementById("showmore");
+            var btn = document.getElementById("button");
+
+            if (x.style.display === "none") {
+                x.style.display = "grid";
+                btn.style.display = "none";
+            }
+            
+        }
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
